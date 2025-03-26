@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: ee.ut.cs.swt.nextdate.NextDateTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.158 sec <<< FAILURE! - in ee.ut.cs.swt.nextdate.NextDateTest
+testDecemberToJanuary(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.135 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[/1/2002]> but was:<1[2/32/2001]>
+	at ee.ut.cs.swt.nextdate.NextDateTest.testDecemberToJanuary(NextDateTest.java:32)
+
+t1(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[I]nvalid Input Date> but was:<[i]nvalid Input Date>
+	at ee.ut.cs.swt.nextdate.NextDateTest.t1(NextDateTest.java:36)
+
+t4(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[/1/2011]> but was:<1[2/32/2010]>
+	at ee.ut.cs.swt.nextdate.NextDateTest.t4(NextDateTest.java:49)
+
+t11(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<7/3[1]/2020> but was:<7/3[0]/2020>
+	at ee.ut.cs.swt.nextdate.NextDateTest.t11(NextDateTest.java:81)
+
+t13(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Invalid [Input Date]> but was:<Invalid [Next Year]>
+	at ee.ut.cs.swt.nextdate.NextDateTest.t13(NextDateTest.java:89)
+
+t14(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid Next Year]> but was:<[12/32/2021]>
+	at ee.ut.cs.swt.nextdate.NextDateTest.t14(NextDateTest.java:93)
+
+t15(ee.ut.cs.swt.nextdate.NextDateTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[8/]1/2021> but was:<[7/3]1/2021>
+	at ee.ut.cs.swt.nextdate.NextDateTest.t15(NextDateTest.java:97)
+
